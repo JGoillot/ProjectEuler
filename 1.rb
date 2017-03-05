@@ -1,3 +1,4 @@
+
 def sum_of_three_and_five(num)
   sum = 0
   num.times do |i|
@@ -10,4 +11,3 @@ end
 
 puts sum_of_three_and_five(10)
 puts sum_of_three_and_five(1000)
-
