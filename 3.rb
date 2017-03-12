@@ -3,8 +3,9 @@
 # n = 600851475143
 n = 864
 
-def factor(n)
+def factor(number)
   factors = []
+  n = number
   m = 2
 
   loop do
