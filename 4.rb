@@ -6,6 +6,7 @@ max = 0
     product = a * b
     s_s = product.to_s
     if product > max and s_s == s_s.reverse
+      puts "With #{a} x #{b}"
       max = product
     end
   end
